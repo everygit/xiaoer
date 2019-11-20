@@ -1,17 +1,21 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "name": "@xiaoerr/utils",
+  "version": "0.0.2",
+  "description": "xiaoer utils",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "xiaoer",
+    "utils"
+  ],
+  "author": "austin.sun",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/everygit/xiaoer.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/everygit/xiaoer/issues"
   },
