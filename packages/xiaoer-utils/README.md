@@ -5,7 +5,7 @@ npm install @xiaoerr/utils
 ```
 
 ```
-import {test} from '@xiaoer/utils'
+var a = require('@xiaoerr/utils')
 
-test()
+a.test();
 ```

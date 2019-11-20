@@ -1,7 +1,7 @@
 {
   "name": "@xiaoerr/utils",
-  "version": "0.0.2",
-  "description": "xiaoer utils",
+  "version": "0.0.3",
+  "description": "xiaoerr utils",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
