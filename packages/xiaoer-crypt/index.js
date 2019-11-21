@@ -4,7 +4,14 @@ var CryptoJS = require('crypto-js');
 
 module.exports = {
     md5,
+    sha1,
+    sha224,
+    sha256,
+    sha384,
+    sha512,
+    sha3,
     aes,
+    CryptoJS
 }
 
 /**
@@ -15,7 +22,37 @@ function md5(s) {
     return CryptoJS.MD5(s).toString()
 }
 
+function sha1(s) {
+    return CryptoJS.SHA1(s).toString();
+}
 
+function sha224(s) {
+    return CryptoJS.SHA224(s).toString();
+}
+
+function sha256(s) {
+    return CryptoJS.SHA256(s).toString();
+}
+
+function sha384(s) {
+    return CryptoJS.SHA384(s).toString();
+}
+
+function sha512(s) {
+    return CryptoJS.SHA512(s).toString();
+}
+
+function sha3(s, c) {
+    return CryptoJS.SHA3(s, {
+        outputLength: c || 512
+    }).toString();
+}
+
+/**
+ * AES encipher
+ * @param {string} pwd key
+ * @param {object} options Including vector and so on configuration
+ */
 function aes(pwd, options) {
     var key = pwd;
     // get options
