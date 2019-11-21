@@ -1,11 +1,10 @@
 # @xiaoerr
 
 ```
-npm install @xiaoerr/crypt
+npm install @xiaoerr/io
 ```
 
 ```
-let {md5} = require('./index.js');
-
-console.log(md5("123"));
+let {mkdirsSync} = require('./index.js');
+mkdirsSync("./a/b/c");
 ```
