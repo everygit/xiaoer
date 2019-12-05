@@ -1,2 +1,4 @@
-let {mkdirsSync} = require('./index.js');
-mkdirsSync("./a/b/c");
+let {rmdirsSync, cpdirsSync} = require('./index.js');
+rmdirsSync("./a");
+
+cpdirsSync('./tt', './pp')

@@ -1,6 +1,6 @@
 {
   "name": "@xiaoerr/io",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "xiaoerr io",
   "main": "index.js",
   "scripts": {
