@@ -59,7 +59,6 @@ function cpdirsSync(from, to, callback) {
             if(t.isDirectory()) {
                 var nextFromDir = path.resolve(from, obj);
                 var nextToDir = path.resolve(to, obj);
-                console.log(nextFromDir, nextToDir);
                 mkdirsSync(toDir);
                 cpdirsSync(nextFromDir, nextToDir, callback);
             } else {
