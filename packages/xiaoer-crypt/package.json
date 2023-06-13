@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/everygit/xiaoer#readme",
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "crypto-js": "^3.2.1"
   }
 }
